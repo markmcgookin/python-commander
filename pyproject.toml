@@ -16,6 +16,10 @@ formal_name = "Python Commander"
 description = "A modern macOS desktop app for running and managing Python scripts from a user-friendly UI."
 sources = ["python_commander"]
 icon = "resources/images/icon/iconset"
+resources = [
+    "resources/default_config.json",
+    "script-template.py"
+]
 requires = [
     "PySide6-Essentials",
     "watchdog",

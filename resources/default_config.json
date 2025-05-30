@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "settings": {
+    "dark_mode": false,
+    "auto_refresh": true,
+    "refresh_interval": 5,
+    "show_hidden_files": false,
+    "default_script_template": "script-template.py",
+    "window_size": {
+      "width": 800,
+      "height": 600
+    },
+    "remember_window_position": true
+  },
+  "monitored_paths": [
+    "~/Documents/Python Scripts",
+    "~/Desktop",
+    "~/Development/Scripts"
+  ],
+  "recent_scripts": [],
+  "favorites": [],
+  "file_patterns": {
+    "include": ["*.py"],
+    "exclude": ["__pycache__", "*.pyc", ".git", ".venv", "venv"]
+  }
+} 
