@@ -1,0 +1,23 @@
+[build-system]
+requires = ["briefcase"]
+
+[tool.briefcase]
+project_name = "Python Commander"
+bundle = "com.pythoncommander.app"
+version = "0.1.0"
+description = "A modern macOS desktop app for running and managing Python scripts from a user-friendly UI."
+author = "Mark McGookin"
+author_email = "mark@markmcgookin.com"
+url = "https://pythoncommander.com"
+license = { file = "LICENSE" }
+
+[tool.briefcase.app.python_commander]
+formal_name = "Python Commander"
+description = "A modern macOS desktop app for running and managing Python scripts from a user-friendly UI."
+sources = ["python_commander"]
+icon = "resources/images/icon/iconset"
+requires = [
+    "PySide6-Essentials",
+    "watchdog",
+    "pyobjc-framework-Cocoa"
+]
